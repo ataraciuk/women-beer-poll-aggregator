@@ -1,0 +1,97 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	background: url('../img/backgroundImg.jpg') no-repeat;
+}
+#main{
+	background: url('../img/Questionbar.png') no-repeat 50% 0;
+	height: 740px;
+	position: relative;
+	left:450px;
+	top:10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	width: 740px;
+	color:#3c1d0d;
+	font-family: "Avenir";
+}
+#container{
+	position: relative;
+	top:55px;
+}
+ul {
+	list-style: none;
+	position: relative;
+}
+.bar{
+	height: 49px;
+	border: 3px solid #3c1d0d;
+	background-color: #e89d22;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.main-li{
+	height: 49px;
+	margin-top: 8px;
+}
+.disc-li{
+	position: absolute;
+	display: inline-block;
+	height: 49px;
+	right:55%;
+	width: 45%;
+	text-align: right;
+}
+.disc-li > div{
+	display: inline-block;
+}
+.disc-li-1{
+	left:55%;
+	text-align: left;
+}
+.disc-li-1 .bar{
+	background-color: #934820;
+}
+.percentage {
+	margin: 0 6px;
+}
+.barLabel{
+	margin: 0px 6px;
+	font-weight: bold;
+	width:24px;
+}
+.percentage, .barLabel{
+	position: relative;
+	font-size: 24px;
+	bottom:14px;
+}
+#main-ul-2{
+	margin-top: 73px;
+}
+#main-ul-4{
+	margin-top: 68px;
+}
+#main-ul-5{
+	margin-top: 100px;
+}
+.title-li{
+	height: 20px;
+	width: 100%;
+}
+.title-div{
+	display: inline-block;
+	position: absolute;
+	text-align: right;
+	right: 55%;
+	width: 45%;
+	margin-right: 36px;
+	font-weight: bold;
+}
+.title-div-1{
+	text-align: left;
+	left: 55%;
+	margin: 0 0 0 36px;
+}
