@@ -30,7 +30,7 @@ a:hover{
 #mainText{
 	width: 500px;
 	text-shadow: #934820 0.1em 0.1em 0.2em;
-	position: fixed;
+	position: absolute;
 	top: 20px;
 	left: 50px;
 }
