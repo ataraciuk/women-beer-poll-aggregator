@@ -6,6 +6,8 @@ body {
 	color:#3c1d0d;
 	font-family: "Avenir";
 	background: url('../img/backgroundImg.jpg') no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
 }
 a {
 	color:#3c1d0d;
@@ -19,7 +21,7 @@ a:hover{
 	background: url('../img/Questionbar.png') no-repeat 50% 0;
 	height: 740px;
 	position: absolute;
-	left:450px;
+	left:550px;
 	top:10px;
 	margin-bottom: 10px;
 	display: inline-block;
@@ -28,7 +30,7 @@ a:hover{
 #mainText{
 	width: 500px;
 	text-shadow: #934820 0.1em 0.1em 0.2em;
-	position: absolute;
+	position: fixed;
 	top: 20px;
 	left: 50px;
 }
